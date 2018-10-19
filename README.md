@@ -1,34 +1,20 @@
-# GrapesJS Plugin Templeate
+# Ezappx Plugin Templeate
 
 ## 初始化
-替换 
-- ./package.json
-- ./index.html
-- ./deploy.sh
+使用[ezappx-plugin-generator](https://github.com/ingbyr/ezappx-plugin-generator)命令行工具生成
 
-中的 `ezapp-plugin-templeate ` 为自己的插件名称
 
 ## 开发
-参考 [grapesJs官方文档](https://grapesjs.com/docs/)
+参考 [grapesJs官方文档](https://grapesjs.com/docs/)，npm替换为[cnpm](https://npm.taobao.org/)
 
 ## 调试
 
 安装依赖
 ```sh
-$ npm i
+$ cnpm i
 ```
 
 开启本地调试服务器
 ```sh
-$ npm start
+$ cnpm start
 ```
-
-## 部署
-目前仅提供[ezappx-cdn](http://cdn.ezappx.com)方式
-```sh
-sh deploy.sh
-```
-
-## License
-
-BSD 3-Clause
