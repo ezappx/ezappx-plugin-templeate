@@ -16,5 +16,5 @@ $ cnpm i
 
 开启本地调试服务器
 ```sh
-$ cnpm start
+$ npm start
 ```
